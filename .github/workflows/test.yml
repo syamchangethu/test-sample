@@ -1,6 +1,6 @@
 name: Do Something That Needs Scheduled
 on:
-  push:
+  repository_dispatch:
     branches:
       - main
 jobs:
